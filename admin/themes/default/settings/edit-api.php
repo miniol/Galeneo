@@ -4,7 +4,7 @@ echo common('settings-nav');
 echo flash();
 ?>
 <form method="post">
-    <h2>Configure API</h2>
+    <h2><?php echo __('Configure API'); ?></h2>
     <section class="seven columns alpha">
         <div class="field">
             <div class="two columns alpha">
