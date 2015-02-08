@@ -81,7 +81,7 @@ class SystemInfoController extends Omeka_Controller_AbstractActionController
             $pluginInfo = $plugin->version;
             $name = $plugin->name;
             if ($inactive) {
-                $pluginInfo .= ' (inactive)';
+                $pluginInfo .= ' ('. __('inactive').')';
             }
             $info['Plugins'][$name] = $pluginInfo;
         }
